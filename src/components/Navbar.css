@@ -1,0 +1,89 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 120px 20px 120px;
+
+  background-color: var(--dark-base);
+}
+
+.logo{
+  font-size: larger;
+  color: var(--white);
+
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+
+  cursor: pointer;
+}
+
+.logo b{
+  color: var(--featured);
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin-bottom: -7px;
+}
+
+.navbar ul a {
+  text-decoration: none;
+  color: var(--white);
+
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.navbar ul a:hover {
+  color: var(--featured);
+  
+}
+
+.widgets {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: var(--white);
+}
+
+.widgets button {
+  background-color: var(--dark-base);
+  border: 2px solid var(--white);
+  border-radius: 5px;
+  color: var(--white);
+
+  padding: 12px 24px;
+  cursor: pointer;
+  
+  text-align: center;
+  font-size: 16px;
+}
+
+.widgets button:hover{
+  border-color: var(--featured);
+  color: var(--featured);
+}
+
+.widgets button a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.widgets button:hover a {
+    color: var(--featured);
+}
+
+.buttonTheme {
+  font-size: 36px;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.buttonTheme:hover {
+  color: var(--featured);
+}
