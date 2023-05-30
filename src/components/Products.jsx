@@ -20,14 +20,14 @@ function Products() {
   let productList=[];
   products.forEach((product)=>{
     productList.push(
-        <Card style={{ width: "18rem" }}>
-        <Card.Img variant="top" src="../src/assets/images/deco1.jpg" />
+        <Card style={{ width: "18rem" }} key={product.id}>
+        <Card.Img variant="top" src={product.image} />
         <Card.Body>
           <Card.Title>{product.name}</Card.Title>
           <Card.Text>
-            {product.price}
+            R$ {product.price}
           </Card.Text>
-          <Button variant="primary">Comprar</Button>
+          <Button variant="success">Comprar</Button>
         </Card.Body>
       </Card>
     )

@@ -1,19 +1,64 @@
 {
-    "products": [
+  "products": [
     {
-    "id": 1,
-    "name": "Camisa",
-    "price": 59.9
+      "id": 1,
+      "name": "Bonsai artificial",
+      "price": 23.74,
+      "image": "../src/assets/images/products/img1.jpg"
     },
     {
-    "id": 2,
-    "name": "Calça vermelha",
-    "price": 90
+      "id": 2,
+      "name": "Escultura Decorativa Home",
+      "price": 36.99,
+      "image": "../src/assets/images/products/img2.jpg"
     },
     {
-    "id": 3,
-    "name": "Boné aba reta",
-    "price": 29.9
+      "id": 3,
+      "name": "Kit 4 Capas de Almofadas",
+      "price": 44.99,
+      "image": "../src/assets/images/products/img3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Mesa Lateral JB8002 Perola com Caramelo",
+      "price": 128.99,
+      "image": "../src/assets/images/products/img4.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Bonsai artificial",
+      "price": 23.74,
+      "image": "../src/assets/images/products/img1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Escultura Decorativa Home",
+      "price": 36.99,
+      "image": "../src/assets/images/products/img2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Kit 4 Capas de Almofadas",
+      "price": 44.99,
+      "image": "../src/assets/images/products/img3.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Bonsai artificial",
+      "price": 23.74,
+      "image": "../src/assets/images/products/img1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Escultura Decorativa Home",
+      "price": 36.99,
+      "image": "../src/assets/images/products/img2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Kit 4 Capas de Almofadas",
+      "price": 44.99,
+      "image": "../src/assets/images/products/img3.jpg"
     }
-    ]
+  ]
 }

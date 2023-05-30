@@ -1,3 +1,7 @@
+.List {
+  display: flex;
+}
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -86,4 +90,10 @@
 
 .buttonTheme:hover {
   color: var(--featured);
+}
+
+@media screen and (max-width: 771px) {
+  .List {
+      display: none;
+  }
 }

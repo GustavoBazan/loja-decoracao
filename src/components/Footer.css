@@ -1,0 +1,29 @@
+.Footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  padding: 20px 20px 20px 120px;
+
+  background-color: var(--dark-base);
+}
+
+.logo {
+  font-size: larger;
+  color: var(--white);
+
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+
+  cursor: pointer;
+}
+
+.logo b {
+  color: var(--featured);
+}
+
+p {
+  color: var(--white);
+}

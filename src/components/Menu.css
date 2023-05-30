@@ -1,0 +1,9 @@
+.Menu {
+    display: none;
+}
+
+@media screen and (max-width: 770px) {
+    .Menu {
+        display: flex;
+    }
+}

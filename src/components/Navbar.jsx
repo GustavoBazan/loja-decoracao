@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import Menu from './Menu.jsx';
+
 import './Navbar.css';
 import '../App.css'
 
@@ -9,7 +11,7 @@ import { BoxArrowInRight } from "react-bootstrap-icons"
 import { BrightnessHigh } from "react-bootstrap-icons"
 import { MoonStars } from "react-bootstrap-icons"
 
-function Menu() {
+function Navbar() {
     var r = document.querySelector(':root');
     const [light, changeTheme] = useState(false);
     const handleClick = () => {
@@ -29,11 +31,16 @@ function Menu() {
       <div className="navbar">
         <div className="logo">Decora<b>_</b></div>
 
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/sobre">Sobre</a></li>
-          <li><a href="/contato">Contato</a></li>
-        </ul>
+        <div className="List">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/sobre">Sobre</a></li>
+            <li><a href="/contato">Contato</a></li>
+          </ul>
+        </div>
+        
+
+        <Menu/>
 
         <div className="widgets">
           <button>
@@ -51,4 +58,4 @@ function Menu() {
   )
 }
 
-export default Menu
+export default Navbar
