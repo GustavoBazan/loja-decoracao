@@ -1,3 +1,8 @@
 h1 {
     margin: 25px 0 0 30px;
 }
+
+h3 {
+    font-size: 16px;
+    color: var(--featured);
+}

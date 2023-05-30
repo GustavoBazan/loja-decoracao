@@ -25,7 +25,7 @@ function Products() {
         <Card.Body>
           <Card.Title>{product.name}</Card.Title>
           <Card.Text>
-            R$ {product.price}
+            <h3>R$ {product.price}</h3>
           </Card.Text>
           <Button variant="success">Comprar</Button>
         </Card.Body>
